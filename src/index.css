@@ -496,10 +496,7 @@
   }
 }
 
-/* ✅ On small screens (below 1024px)
-   - Hide desktop nav links
-   - Show hamburger icon
-*/
+
 @media (max-width: 1023px) {
   nav.css-15 {
     display: none; /* hide desktop links */
@@ -510,10 +507,7 @@
   }
 }
 
-/* ✅ On extra small screens (below 480px)
-   - Slightly smaller sidebar width
-   - Better spacing for small phones
-*/
+
 @media (max-width: 480px) {
   .mobile-menu {
     width: 220px;

@@ -25,7 +25,7 @@ const getLinkClasses = (page) =>
   }`;
   return (
       <header className="css-2 css-3 css-4 css-5 css-6">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
         
         <div className="flex items-center space-x-10">
           <a onClick={() => showPage('home')} className="cursor-pointer">
@@ -51,7 +51,7 @@ const getLinkClasses = (page) =>
         </div>
 
         {/* Desktop Nav Links */}
-        <nav className="hidden lg:flex space-x-6">
+        <nav className="hidden lg:flex space-x-4">
           <a onClick={() => showPage('home')} className={getLinkClasses('home')}>Home</a>
           <a onClick={() => showPage('category')} className={getLinkClasses('category')}>Properties</a>
           <a onClick={() => showPage('event')} className={getLinkClasses('event')}>Events</a>
@@ -110,7 +110,7 @@ const getLinkClasses = (page) =>
 
           <button
             onClick={() => showPage('contact')}
-            className="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+            className="mt-4 bg-blue-600 text-white px-2 py-2 rounded hover:bg-blue-700 transition"
           >
             Get Started
           </button>
