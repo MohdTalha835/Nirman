@@ -8,7 +8,7 @@
   import Contact from './assets/pages/ContactUs';
   import Event from './assets/pages/Event';
   import Gallery from './assets/pages/Gallery';
-  import Review from './assets/pages/review';
+  import Review from './assets/pages/Review.jsx';
   import ScrollToTop from './ScrollToTop';
 
 
