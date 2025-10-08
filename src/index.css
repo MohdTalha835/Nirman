@@ -1,0 +1,538 @@
+
+@import "tailwindcss";
+
+        .page.active { display: block; }
+        .nav-link.active { color: #1E3A8A !important; font-weight: bold; }
+
+        .top-bar {display: flex; align-items: center; gap: 15px; }
+
+        .img img { height: 50px;}
+
+        .contact { display: flex; align-items: center; gap: 8px;}
+
+        .contact img { height: 20px; }
+
+        .contact a  { font-size: 16px; font-weight: bold; text-decoration: none; color: #007bff ; }
+
+
+.css-1 {
+  background-color: #f8fafc;
+}
+.text-accent {
+    --tw-text-opacity: 1;
+    color: rgb(245 158 11 / var(--tw-text-opacity, 1));
+}
+
+.bg-text-primary
+ {
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
+}
+
+.css-2 {
+  position: sticky;
+}
+
+.css-3 {
+  top: 0;
+}
+
+.css-4 {
+  background-color: #ffffff;
+}
+
+.css-5 {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.css-6 {
+  z-index: 50;
+}
+
+.css-7 {
+  max-width: 1280px; margin-left: auto; margin-right: auto; padding-left: 1rem; padding-right: 1rem;
+}
+
+.css-8 {
+  margin-left: auto; margin-right: auto;
+}
+
+.css-9 {
+  padding-left: 1rem; padding-right: 1rem;
+}
+
+.css-10 {
+  padding-top: 1rem; padding-bottom: 1rem;
+}
+
+.css-11 {
+  display: flex;
+}
+
+.css-12 {
+  align-items: center;
+}
+
+.css-13 {
+  justify-content: space-between;
+}
+
+.css-14 {
+  display: none;
+}
+.py-12 {
+    padding-block: calc(var(--spacing) * 11);
+}
+
+@media (min-width: 768px) {
+  .css-15 {
+    display: flex;
+  }
+}
+
+.css-16 {
+  gap: 2rem;
+}
+
+.css-17 {
+  color: #1F2937;
+}
+
+.css-18:hover {
+  color: #1F2937;
+}
+
+.css-19 {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms;
+}
+
+.css-20 {
+  color: #6B7280;
+}
+
+.css-21 {
+  background-color: orange;
+}
+
+.css-22 {
+  color: #ffffff;
+}
+
+.css-23 {
+  padding-left: 1.5rem; padding-right: 1.5rem;
+}
+
+.css-24 {
+  padding-top: 0.5rem; padding-bottom: 0.5rem;
+}
+
+.css-25 {
+  border-radius: 0.5rem;
+}
+
+.css-26:hover {
+  background-color: #d97706;
+}
+
+.css-27 {
+  transition-property: all; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms;
+}
+
+.css-28 {
+  position: relative;
+}
+
+.css-29 {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.css-30 {
+  --tw-gradient-from: #1E3A8A; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(30, 58, 138, 0));
+}
+
+.css-31 {
+  --tw-gradient-to: #1e40af;
+}
+
+.css-32 {
+  padding-top: 5rem; padding-bottom: 5rem;
+}
+
+.css-33 {
+  text-align: center;
+}
+
+.css-34 {
+  font-size: 3rem; line-height: 1;
+}
+
+@media (min-width: 768px) {
+  .css-35 {
+    font-size: 3.75rem; line-height: 1;
+  }
+}
+
+.css-36 {
+  font-weight: 700;
+}
+
+.css-37 {
+  margin-bottom: 1.5rem;
+}
+
+.css-38 {
+  font-size: 1.25rem; line-height: 1.75rem;
+}
+
+.css-39 {
+  margin-bottom: 2rem;
+}
+
+.css-40 {
+  max-width: 56rem;
+}
+
+.css-41 {
+  padding: 1.5rem;
+}
+
+.css-42 {
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.css-43 {
+  display: grid;
+}
+
+.css-44 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 768px) {
+  .css-45 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.css-46 {
+  gap: 1rem;
+}
+
+.css-47 {
+  display: block;
+}
+
+.css-48 {
+  font-size: 0.875rem; line-height: 1.3rem;
+}
+
+.css-49 {
+  font-weight: 500;
+}
+
+.css-50 {
+  margin-bottom: 0.5rem;
+}
+
+.css-51 {
+  width: 100%;
+}
+
+.css-52 {
+  padding: 0.75rem;
+}
+
+.css-53 {
+  border-width: 1px; border-style: solid;
+}
+
+.css-54 {
+  border-color: #d1d5db;
+}
+
+.css-55 {
+  align-items: flex-end;
+}
+
+.css-56 {
+  padding-top: 4rem; padding-bottom: 4rem;
+}
+
+.css-57 {
+  margin-bottom: 3rem;
+}
+
+.css-58 {
+  font-size: 2.25rem; line-height: 2.5rem;
+}
+
+.css-59 {
+  margin-bottom: 1rem;
+}
+
+.css-60 {
+  font-size: 1.125rem; line-height: 1.75rem;
+}
+
+@media (min-width: 768px) {
+  .css-61 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.css-62 {
+  gap: 2rem;
+}
+
+.css-63 {
+  border-radius: 0.75rem;
+}
+
+.css-64 {
+  overflow: hidden;
+}
+
+.css-65:hover {
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.css-66 {
+  cursor: pointer;
+}
+
+.css-67 {
+  height: 16rem;
+}
+
+.css-68 {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.css-69 {
+  --tw-gradient-from: #60a5fa; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(96, 165, 250, 0));
+}
+
+.css-70 {
+  --tw-gradient-to: #2563eb;
+}
+
+.css-71 {
+  position: absolute;
+}
+
+.css-72 {
+  top: 1rem;
+}
+
+.css-73 {
+  left: 1rem;
+}
+
+.css-74 {
+  padding-left: 0.75rem; padding-right: 0.75rem;
+}
+
+.css-75 {
+  padding-top: 0.25rem; padding-bottom: 0.25rem;
+}
+
+.css-76 {
+  border-radius: 9999px;
+}
+
+.css-77 {
+  right: 1rem;
+}
+
+.css-78 {
+  font-size: 1.5rem; line-height: 2rem;
+}
+
+.css-79 {
+  background-color: #1E3A8A;
+}
+
+.css-80 {
+  padding-top: 0.75rem; padding-bottom: 0.75rem;
+}
+
+.css-81:hover {
+  background-color: #1e40af;
+}
+
+.css-82 {
+  --tw-gradient-from: #4ade80; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(74, 222, 128, 0));
+}
+
+.css-83 {
+  --tw-gradient-to: #16a34a;
+}
+
+.css-84 {
+  background-color: #ef4444;
+}
+
+.css-85 {
+  --tw-gradient-from: #c084fc; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(192, 132, 252, 0));
+}
+
+.css-86 {
+  --tw-gradient-to: #9333ea;
+}
+
+.css-87 {
+  gap: 1.5rem;
+}
+
+.css-88 {
+  padding: 2rem;
+}
+
+.css-89 {
+  justify-content: center;
+}
+
+.css-90 {
+  flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  .css-91 {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .css-92 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .css-93 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.css-94 {
+  padding: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .css-95 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.css-96 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (min-width: 1024px) {
+  .css-97 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.css-98:hover {
+  color: #ffffff;
+}
+
+.css-99{
+  color: #1e40af;
+}
+.css-100{
+  background-color: white;
+}
+/* ---------------------------
+   MOBILE MENU (Default Hidden)
+---------------------------- */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 260px;
+  background: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 40;
+}
+
+.mobile-menu.active {
+  transform: translateX(0);
+}
+
+.mobile-links {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 30;
+}
+
+/* ---------------------------
+   RESPONSIVE BEHAVIOR
+---------------------------- */
+
+/* ✅ On large screens (1024px and above)
+   - Hide mobile menu completely
+   - Show normal desktop navbar
+*/
+@media (min-width: 1024px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .overlay {
+    display: none;
+  }
+}
+
+/* ✅ On small screens (below 1024px)
+   - Hide desktop nav links
+   - Show hamburger icon
+*/
+@media (max-width: 1023px) {
+  nav.css-15 {
+    display: none; /* hide desktop links */
+  }
+
+  .hamburger-btn {
+    display: block; /* show menu icon */
+  }
+}
+
+/* ✅ On extra small screens (below 480px)
+   - Slightly smaller sidebar width
+   - Better spacing for small phones
+*/
+@media (max-width: 480px) {
+  .mobile-menu {
+    width: 220px;
+  }
+
+  .mobile-links {
+    padding: 1rem;
+    gap: 0.75rem;
+  }
+}
+
+
+.contact-icon {
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.contact-icon:hover {
+  color: #2050b7;     
+  font-size: 1.1rem;  
+  text-decoration: underline;
+  cursor: pointer;
+}
