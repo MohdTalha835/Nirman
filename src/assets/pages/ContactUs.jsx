@@ -82,20 +82,21 @@ const Contact = () => {
               <h2 className="css-78 css-36 css-17 css-37">Get in Touch</h2>
               <div className="space-y-6">
                 {/* Address */}
-                <div className="css-1 css-25 css-41">
-                  <div className="css-11 css-12 space-x-4">
-                    <div className="w-12 h-12 css-79 css-76 css-11 css-12 css-89  flex items-center justify-center">
-                     <FaMapPin className="text-red-500 text-xl" />
-                    </div>
-                    <div>
-                      <h4 className="css-36 css-17 mb-1">Visit Our Office</h4>
-                      <p className="css-20">
-                        Shop No : 11/288, KINGS ROAD, OPP. SHYAM NAGER POLICE STATION,
-                        NIRMAN NAGER, JAIPUR-302001, RAJASTHAN INDIA
-                      </p>
-                    </div>
-                  </div>
-                </div>
+             <div className="css-1 css-25 css-41">
+  <div className="css-11 css-12 space-x-4">
+    <div className="contact-icon-bg">
+      <FaMapPin className="text-red-500 text-xl" />
+    </div>
+    <div>
+      <h4 className="css-36 css-17 mb-1">Visit Our Office</h4>
+      <p className="css-20">
+        Shop No : 11/288, KINGS ROAD, OPP. SHYAM NAGER POLICE STATION,
+        NIRMAN NAGER, JAIPUR-302001, RAJASTHAN INDIA
+      </p>
+    </div>
+  </div>
+</div>
+
 
                 {/* Phone */}
                 <div className="css-1 css-25 css-41">

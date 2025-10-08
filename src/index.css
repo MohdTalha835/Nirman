@@ -536,3 +536,15 @@
   text-decoration: underline;
   cursor: pointer;
 }
+.contact-icon-bg {
+  width: 3rem;           /* 48px */
+  height: 3rem;          /* 48px */
+  min-width: 3rem;
+  min-height: 3rem;
+  border-radius: 9999px; /* Full circle */
+  background-color: #1E3A8A; /* Deep blue background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;        /* Prevent from shrinking */
+}
