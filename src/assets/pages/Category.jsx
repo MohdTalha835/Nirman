@@ -4,9 +4,8 @@ import { FaMapPin } from "react-icons/fa";
 const Category = () => {
   const navigate = useNavigate();
 
-  // ✅ Handle property card click
-  const showPropertyDetail = (slug) => {
-    navigate(`/property/${slug}`);
+  const showPropertyDetail = (id) => {
+    navigate(`/details/${id}`);
   };
 
   return (
