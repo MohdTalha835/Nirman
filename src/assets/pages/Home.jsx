@@ -104,7 +104,7 @@ const Home= () => {
             </h3>
             
            
-<p className="css-20 css-59 flex items-center gap-2">
+<p className="css-20 css-59 css-60  flex items-center gap-2">
           <FaMapPin className="text-red-500" />
           Sector 45, Gurgaon
         </p>
@@ -157,7 +157,7 @@ const Home= () => {
           <div className="css-41">
             <h3 className="css-38 css-36 css-17 css-50">Modern Apartment</h3>
            
-          <p className="css-20 css-59 flex items-center gap-2">
+          <p className="css-20 css-59 css-60 flex items-center gap-2">
           <FaMapPin className="text-red-500" />
           Sector 62, Noida
           </p>
@@ -211,7 +211,7 @@ const Home= () => {
           <div className="css-41">
             <h3 className="css-38 css-36 css-17 css-50">Commercial Space</h3>
             
-          <p className="css-20 css-59 flex items-center gap-2">
+          <p className="css-20 css-59 css-60 flex items-center gap-2">
           <FaMapPin className="text-red-500" />
           Connaught Place, Delhi
         </p>
